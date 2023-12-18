@@ -1,0 +1,13 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.4/bluebird.min.js"></script>
+<script src="https://secure.gosell.io/js/sdk/tap.min.js"></script>
+<script src="./tap_payment.js"></script>
+<form id="form-container" method="post" action="/charge">
+  <!-- Tap element will be here -->
+  <div id="element-container"></div>
+  <div id="error-handler" role="alert"></div>
+  <div id="success" style=" display: none;;position: relative;float: left;">
+        Success! Your token is <span id="token"></span>
+  </div>
+  <!-- Tap pay button -->
+  <button id="tap-btn">Submit</button>
+</form>
