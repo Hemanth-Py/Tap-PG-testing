@@ -32,7 +32,7 @@ var paymentOptions = {
 
 
 //pass your public key from tap's dashboard
-var tap = Tapjsli('pk_test_EtHFV4BuPQokJT6jiROls87Y');
+var tap = Tapjsli('pk_test_iGUg8em75ANVqwSjJR2hdlnx');
 console.log(tap)
 var elements = tap.elements({});
 //create element, pass style and payment options
